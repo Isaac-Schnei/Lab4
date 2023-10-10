@@ -6,6 +6,7 @@ namespace Lab4
     {
         /// <summary>
         /// this main method deletes everything to start testing again!
+        /// no longer need to use since the tests delete the airports when done.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -21,7 +22,7 @@ namespace Lab4
             businessLogic.DeleteAirport("KATW");
             businessLogic.DeleteAirport("KEGR");
             businessLogic.DeleteAirport("KFLD");
-            businessLogic.DeleteAirport("KXYZ");
+            businessLogic.DeleteAirport("KLUM");
 
             // Print the list of airports
 
