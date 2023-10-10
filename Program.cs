@@ -12,7 +12,7 @@ namespace Lab4
             // Retrieve the list of airports using GetAirports
             ObservableCollection<Airport> airports = businessLogic.GetAirports();
 
-            businessLogic.DeleteAirport("KATW");
+            businessLogic.DeleteAirport("KETB");
             // Print the list of airports
             
         }

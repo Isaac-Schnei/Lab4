@@ -79,8 +79,13 @@ namespace Lab4
         public void DeleteAirport(string id)
         {
             Airport airportToDelete = FindAirport(id);
-            database.DeleteAirport(airportToDelete);
-            //asking database to delete airport with specified id
+            if (airportToDelete != null)
+            {
+                database.DeleteAirport(airportToDelete);
+                // asking database to delete airport with specified id
+            }
+           
+            
         }
         /// <summary>
         /// Edit Airport
@@ -128,7 +133,6 @@ namespace Lab4
         /// CalculateStatistics
         /// Returns a message about how many airports have been visited.
         /// Checks to see how many airports have been visited.
-        /// Checks to see if there are 70 airports in the list to achieve bronze.
         /// </summary>
         /// <returns>String</returns>
         public string CalculateStatistics()
