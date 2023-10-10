@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZqeHja/DpGWLyNwpOTht67z9xM3PSjn0a/GfZyNUxUJJ02NAhE7aXhWD6UfNkxrZLEFWiInTAY9siiG/XqSDZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Isaac Schneider\\source\\repos\\Lab4\\Lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Isaac Schneider\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Isaac Schneider\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
