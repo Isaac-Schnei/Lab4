@@ -56,9 +56,12 @@ namespace Lab4
 
         public bool IsCityValid(string city)
         {
-            return city.Length < 25;
-            //checking if the city is within the character limit
+            // Check if the city contains only alphabetic characters and spaces
+            return !string.IsNullOrWhiteSpace(city) && city.All(c => char.IsLetter(c) || char.IsWhiteSpace(c)) && city.Length < 25;
+            // The condition checks for non-empty, alphabetic (including spaces), and within character limit (25)
         }
+
+
 
         public bool IsRatingValid(int rating)
         {
